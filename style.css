@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+
+header {
+	max-width: 960px;
+	height: 270px;
+	margin: 0 auto 0 auto;
+	color: #333;
+	/*background-color: red;*/
+}
+
+@media only screen and (min-width: 961px)
+header h1 {
+	position: absolute;
+	top: 105px;
+	left: 0;
+}
+
+@media only screen and (min-width: 760px)
+header h1 {
+	position: absolute;
+	top: 105px;
+	left: 50px;
+	margin: 0;
+}
+
+header h1 {
+	margin: 0;
+	padding-top: 20px;
+}
+
+/*ここからメインcomment*/
+#comment {
+	max-width: 960px;
+	margin: 0 auto 50px auto;
+}
+/*ここからメインworks*/
+@media only screen and (min-width: 961px)
+#works h2 {
+	font-size: 56px;
+}
+
+@media only screen and (min-width: 760px)
+#works h2 {
+	font-size: 56px;
+	margin-bottom: 55px;
+}
+
+#works h2 {
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: "Roman";
+
+}
+
+@media only screen and (min-width: 961px)
+#works {
+	width: 920px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+@media only screen and (min-width: 760px)
+#works {
+	max-width: 920px;
+}
+
+#works {
+	background-color: #ecebeb;
+	max-width: 920px;
+	margin: 0 auto 120px auto;
+	display: block;
+}
+
+@media only screen and (min-width: 961px)
+#works section {
+	float: left;
+	width: 280px;
+	margin-right: 40px;
+}
+
+@media only screen and (min-width: 760px)
+#works section {
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 760px)
+#works section {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+
+#works section {
+	width: 280px;
+	margin-right: 40px;	
+	margin-bottom: 40px;
+	float: left;
+}
+
+@media only screen and (min-width: 760px)
+#works section.last {
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 760px)
+#works section.last {
+	margin-right: 0;
+}
+
+#works section.last {
+	margin-right: 0;
+}
+
+#works section a {
+	text-decoration: none;
+	color: #333;
+}
+/*メインworksここまで*/

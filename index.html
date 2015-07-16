@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
 <head>
 	<title>sa-ya</title>
 </head>
 <body>
-<h1>ようこそ！</h1>
+	<header>
+		<h1>sa-ya!</h1>
+	</header>
 
-<h2>今までに制作した作品です</h2>
-<p><a href="https://sa-ya.github.io/hospital/">病院サイト</a></p>
-<p><a href="https://itigou-myshop.herokuapp.com/">ショッピングサイト１</a></p>
-<p><a href="https://nigou-myshop.herokuapp.com/">ショッピングサイト２</a></p>
+	<div id="main">
+		<div id="comment">
+			<p>２０１５年６月まで５ヶ月間、職業訓練でRuby言語を学びました。<br>
+			訓練内容：情報処理基礎知識、HTMLとCSS、データベース基礎とSQL、オブジェクト指向プログラミング、Rubyプログラミング実習、データベース構築実習、Webサービス構築実習</p>
+			<p>現在Ruby、Ruby on Railsを勉強中です。</p>
+			<p>取得資格：Webクリエイター能力認定試験　エキスパート</p>
 
+		</div>
+		<div id="works">
+			<h2>My works</h2>
+			<section>
+				<a href="https://sa-ya.github.io/hospital/">
+				<h3>病院サイト</h3>
+				<p></p>
+				<p class="text">htmlとCSSを使って架空の病院サイトを作りました。
+				トップにはJavaScriptを使ってスライドを入れました。
+				アクセスにはGoogleマップ、お問い合わせにはフォームを入れました。</p>
+				</a>
+			</section>
+			<section>
+				<a href="https://itigou-myshop.herokuapp.com/">
+				<h3>ショッピングサイト１</h3>
+				<p></p>
+				<p>Ruby on Railsを使って架空のショッピングサイトを作りました。
+				会員登録やログイン機能をつけました。カートに入れるボタンを押すと
+				左上のカートの中身が追加され、色が変わるようになっています。
+				チェックアウトボタンを押すとお客様情報入力画面が表示されます。</p>
+				</a>
+			</section>
+			<section class="last">
+				<a href="https://nigou-myshop.herokuapp.com/">
+				<h3>ショッピングサイト２</h3>
+				<p></p>
+				<p>Ruby on Railsを使って架空のショッピングサイトを作りました。
+				ショッピングサイト１との違いは、adminを使って作成したことです。
+				作業時間を大幅に削減して作成することが出来ました。</p>
+				</a>
+			</section>
+		</div>
+	</div>
 </body>
 </html>
